@@ -1,0 +1,35 @@
+.stack {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	.child {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		transition: top 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+	}
+
+	.child-enter {
+		top: 100%;
+		opacity: 0;
+		transform: scale(0.5);
+	}
+	.child-enter.child-enter-active {
+		top: 0;
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	.child-leave {
+		top: 0;
+		opacity: 1;
+		transform: scale(1);
+	}
+	.child-leave.child-leave-active {
+		top: 100%;
+		opacity: 0;
+		transform: scale(0.5);
+	}
+}
