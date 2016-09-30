@@ -2,7 +2,7 @@
 
 An Android-like activity-stack implementation.
 
-![demo](http://i.imgur.com/LnYuUjI.gif)
+![demo](https://raw.githubusercontent.com/jrop/react-toolbox-screen-stack/master/example/demo.gif)
 
 # Installation
 
