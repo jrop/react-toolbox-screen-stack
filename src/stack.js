@@ -6,7 +6,8 @@ import style from '../styles/stack.scss'
 export default class Stack extends React.Component {
 	constructor(props) {
 		super(props)
-		const children = Array.isArray(this.props.children) ? this.props.children : [ this.props.children ]
+		let children = Array.isArray(this.props.children) ? this.props.children : [ this.props.children ]
+		children = children.map(c => React.cloneElement(c, { stack: this }))
 		this.state = { children }
 	}
 
