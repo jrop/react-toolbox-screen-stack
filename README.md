@@ -1,5 +1,7 @@
 # React-Toolbox Screen-Stack
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jrop/react-toolbox-screen-stack.svg)](https://greenkeeper.io/)
+
 An Android-like activity-stack implementation.
 
 ![demo](https://raw.githubusercontent.com/jrop/react-toolbox-screen-stack/master/example/demo.gif)
